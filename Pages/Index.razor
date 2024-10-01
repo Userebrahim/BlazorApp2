@@ -1,0 +1,54 @@
+﻿@page "/"
+
+<PageTitle>Sigup or Signin</PageTitle>
+
+<style>
+    form {
+        max-width: 500px;
+        margin: 40px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<form align="center" style="background: linear-gradient(to bottom, #f7f7f7, #e7e7e7); padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+    <fieldset>
+        <legend>Sign In</legend>
+        <label for="fname">Username:</label>
+        <br />
+        <input type="text" id="fname" name="fname" />
+        <br />
+        <label for="lname">Password:</label>
+        <br />
+        <input type="text" id="lname" name="lname" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+        <br />
+    </fieldset>
+</form>
+
+<br />
+
+<form align="center" style="background: linear-gradient(to bottom, #f7f7f7, #e7e7e7); padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+    <fieldset>
+        <legend>Sign up</legend>
+        <label for="uname">Username:</label>
+        <br />
+        <input type="text" id="uname" name="uname" />
+        <br />
+        <label for="password1">Password:</label>
+        <br />
+        <input type="text" id="password1" name="password1" />
+        <br />
+        <label for="password2">Repeat Password:</label>
+        <br />
+        <input type="text" id="password2" name="password2" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+        <br />
+    </fieldset>
+</form>
